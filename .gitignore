@@ -1,0 +1,60 @@
+# frontend project custom
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# build output
+# frontend build
+dist/
+build/
+# go build
+**/cmd/*
+!**/cmd/main.go
+*.next
+# IDE
+.idea
+.fleet
+
+# test-coverage
+coverage
+.nyc_output
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.next
+# Logs
+*.log
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# frontend others
+node_modules/
+.npm
+.eslintcache
+
+# mac config files
+.DS_Store
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar.gz
+*.tar
+
+# Test binary, built with `go test_demo -c`
+*.test
+
+# Go workspace file
+go.work
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.env.docker
+ecosystem.config.js
+.env
